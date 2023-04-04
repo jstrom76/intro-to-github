@@ -16,6 +16,6 @@ jobs:
     name: JS Test
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Nice work, $First_Name. Dploying to production server on branch $GITHUB_REF" $First_Name
+      - run: echo "Nice work, $First_Name. Dploying to production server on branch $GITHUB_REF"
         env:
           First_Name: Johan
