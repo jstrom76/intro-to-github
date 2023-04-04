@@ -15,4 +15,6 @@ jobs:
     #if: github.ref == 'refs/head/main'
     runs-on: ububntu-latest
     steps:
-      - run: echo "Dploying to production server on branch $GITHUB_REF"
+      - run: echo "Nice work, $First_Name. Dploying to production server on branch $GITHUB_REF"
+        env:
+          First_Name: Johan
