@@ -14,7 +14,7 @@ jobs:
   prod-check:
     #if: github.ref == 'refs/head/main'
     name: JS Test
-    runs-on: ububntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Nice work, $First_Name. Dploying to production server on branch $GITHUB_REF"
         env:
